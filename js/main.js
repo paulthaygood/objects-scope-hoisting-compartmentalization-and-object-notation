@@ -59,8 +59,8 @@ Hoisting
 
 **************************************************************************************/
 
-console.log(x) will print 'variable hoisting!' because the rule of hoisting states that even if the variable is used before the variable is defined it will still work as long as it is all written within the same function.
-console.log(foo()) will print undefined because foo was never defined.
+// console.log(x) will print 'variable hoisting!' because the rule of hoisting states that even if the variable is used before the variable is defined it will still work as long as it is all written within the same function.
+// console.log(foo()) will print undefined because foo was never defined.
 
 
 
@@ -75,7 +75,7 @@ Date Object
   "use strict";
    var todayIs = new Date();
    console.log(todayIs)
-console.assert(todayIs == today, "#3 Test failed. Did you set the date correctly?");
+console.assert(todayIs === today today ==='7/05/17', "#3 Test failed. Did you set the date correctly?");
 })('6/12/2017');
 
 
